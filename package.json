@@ -1,0 +1,19 @@
+{
+  "name": "mongo_utils",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./collection_set": "./src/collection_set.ts",
+    "./document_lock": "./src/document_lock.ts",
+    "./task_manager": "./src/task_manager.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.5",
+    "mongodb": "^5.1.0",
+    "typescript": "5.0.1-rc"
+  },
+  "peerDependencies": {
+    "mongodb": "^5.0.0"
+  }
+}
